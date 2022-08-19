@@ -30,7 +30,7 @@ body {
 
 .encabezado {
 
-    background-image: url(../pages/Pictures/footer2.jpg);
+    background-image: url(../Pictures/footer2.jpg);
     background-size: cover;
     background-position: center bottom;
     height: 350px;
@@ -108,7 +108,7 @@ body {
 .cursosDeIngles {
 
     background-color: rgb(150, 240, 240);
-
+  
 }
 
 .enlace1, .enlace3 {
@@ -338,7 +338,7 @@ p {
  
 .mainLinkingPartners {
 
-    background-image: url(../pages/Pictures/HLFILTRADA.png);
+    background-image: url(../Pictures/HLFILTRADA.png);
     border-radius: 50%;
     background-repeat: no-repeat;
     background-position: center center;
@@ -388,7 +388,7 @@ table, Th, td {
 
 .mainInscripciones {
 
-    background-image: url(../pages/Pictures/HLFILTRADA.png);
+    background-image: url(../Pictures/HLFILTRADA.png);
     border-radius: 50%;
     background-repeat: no-repeat;
     background-position: center center;
@@ -461,40 +461,40 @@ table, Th, td {
 
 .curso1 {
 
-    background-image: url(../pages/Pictures/curso1.jpg);
+    background-image: url(../Pictures/curso1.jpg);
 
 }
 
 
 .curso2 {
 
-    background-image: url(../pages/Pictures/curso2.jpg);
+    background-image: url(../Pictures/curso2.jpg);
 
 }
 
 
 .curso3 {
 
-     background-image: url(../pages/Pictures/curso3.jpg);
+     background-image: url(../Pictures/curso3.jpg);
 
 }
 
 
 .curso4 {
 
-    background-image: url(../pages/Pictures/curso4.jpg);
+    background-image: url(../Pictures/curso4.jpg);
 }
 
 
 
 .curso5 {
 
-    background-image: url(../pages/Pictures/curso5.jpg);
+    background-image: url(../Pictures/curso5.jpg);
 }
 
 
 .curso6 {
-    background-image: url(../pages/Pictures/curso6.jpg);    
+    background-image: url(../Pictures/curso6.jpg);    
 }
 
 
@@ -607,5 +607,26 @@ table, Th, td {
 
 
 
+/* .cursosDeIngles {
+
+    background-color: rgb(150, 240, 240);
+    animation-name: primera_index;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-delay: 5s;
+    animation-timing-function: ease-in-out;
+
+}
 
 
+@keyframes primera_index {
+
+    0% {background-image: url(../Pictures/cursoingles.jpg);}
+    10% {background-image: url(../Pictures/cursoingles2.jpg);}
+   30% {background-image: url(../Pictures/cursoingles3.jpg);}
+    50% {background-image: url(../Pictures/cursoingles4.jpg);}
+   70% {background-image: url(../Pictures/cursoingles5.jpg);}
+    90%{background-image: url(../Pictures/cursoingles6.jpg);} */
+    
+    
+}
