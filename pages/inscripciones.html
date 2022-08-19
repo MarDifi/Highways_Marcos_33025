@@ -1,0 +1,112 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Inscripciones</title>
+    <link rel="stylesheet" href= "../css/Style_Index.css">
+  </head>
+  <body class="body">
+     
+      <header>
+          <div class="encabezado" >
+            <img class="highwayslogoEncabezado" src="../pages/Pictures/HighwaysLogo.jpg" alt="logo-highways">
+            <h1 class="tituloh1"> Formulario de inscripción</h1>
+          </div>
+
+          <div class="cuerpo1">
+            <div>
+              <ul class="menu">
+                <li class="menuNav"> <a href="../Index.html" rel="noopenes noreferrer">   Home</a></li>
+                <li class="menuNav"> <a href="../pages/cursosYCapacitaciones.html" rel="noopener noreferrer"> Cursos y capacitaciones </a></li> 
+                <li class="menuNav"> <a href="../pages/LinkingPartners.html" rel="noopener noreferrer">  Linking Partners</a> </li>
+                <li class="menuNav"> <a href="../pages/preguntasFrecuentes.html" rel="noopener noreferrer"> Preguntas frecuentes </a> </li> 
+                <li class="menuNav"> <a href="../pages/Nostros.html" rel="noopener noreferrer">  Nosotros </a></li> 
+              </ul>
+             </div>
+          </div>
+       </header>
+
+          <p> <strong>Complete el siguinte formulario para realizar la inscripción a su curso</strong>.</p>
+          
+          <div  class="mainInscripciones"> 
+            <form action="/inscripciones.html" method="post">
+              <input type="text" id="Nombre" name="Nombre" placeholder="Nombre" required>
+              <br>
+              <input type="text" id="Apellido" name="Apellido" placeholder="Apellido" required>
+              <br>
+              <input type="number" id="Edad" name="Edad" placeholder="Edad" required minlength="0" maxlength="100">
+              <br>
+              <input type="text" id="DNI" name="DNI" placeholder="DNI" >
+              
+              <p> <strong>¿Qué tipo de curso desea realizar?</strong></p>
+              <label for="Curso regular">Curso regular</label>
+              <input type="checkbox" id="Curso regular" Name="Curso" value="Curso regular">
+              <br>
+              <label for="Curso intensivo"> Curso intensivo</label>
+              <input type="checkbox" id="Curso intensivo" name="Curso" value="Curso intensivo">
+              <br>
+              <label for="Curso personalizado"> Curso personalizado</label>
+              <input type="checkbox" id="Curso personalizado" name="Curso" value="Curso personalizado">
+              <br>
+              <label for="Curso de verano">Curso de verano</label>
+              <input type="checkbox" id="Curso de verano" name="Curso" value="Curso de verano">
+              
+              <p> <strong>¿En qué turno desea realizar su curso?</strong></p>
+              <label for="Turno mañana"> Turno mañana </label>
+              <input type="checkbox" id="Turno mañana" name="Turno" value="Turno mañana">
+              <br>
+              <label for="Turno tarde"> Turno tarde </label>
+              <input type="checkbox" id="Turno tarde" name="Turno" value="Turno tarde">
+              <br>
+              <label for="Turno noche"> Turno noche </label>
+              <input type="checkbox" id="Turno noche" name="Turno" value="Turno noche">
+
+              <p><strong> Escoja el tipo de modalidad</strong></p>
+              <label for="Presencial"> Presencial</label>
+              <input type="checkbox" id="Presencial" name="Modalidad"  value="Presencial">
+              <br>
+              <label for="Virtual"> Virtual</label>
+              <input type="checkbox" id="Virtual" name="Modalidad"  value="Virtual">
+              <br>
+              <label for="Presencial"> A domicilio</label>
+              <input type="checkbox" id="A domicilio" name="Modalidad"  value="A domicilio">
+              
+              <p><strong>¿Ha estudiado ingles en el pasado o posee conocimientos previos sobre el idioma?</strong></p>
+              <label for="Si">Si</label>
+              <input type="checkbox" id="Si" name="Si" value="Si">
+              <br>
+              <label for="No">No</label>
+              <input type="checkbox" id="No" name="No" value="No">
+              <br>
+              <input type="submit" value="listo">
+              
+              <p><strong>¿Desea dejar algún comentario?</strong></p>
+              <textarea rows="10" cols="30"> Ingrese un comentario </textarea>
+              <br><br>
+              <button>Enviar</button>
+        
+          </div>
+          
+          <hr>
+       
+          <footer class="footer">
+            <h3 class="contactanos"><strong>Contáctenos</strong></h3>
+            <div class="divWP"> 
+              <img src="../pages/Pictures/whatsapplogo.png" alt="logo de whatsapp" class="logoFooter">  <strong>+5491132025153</strong>
+            </div>
+            <div class="divIG">
+              <a href="https://www.instagram.com/highwaysinstitute/" rel="noopener noreferrer" target="_Blank" Instagram><img src="../pages/Pictures/iglogo.jpg" alt="instagram logo" class="logoFooter"></a>  <strong>@Highwaysinstitute</strong>
+            </div>
+            <div class="divMail">
+              <img src="../pages/Pictures/correo.png" alt="logo de correo" class="logoFooter"> <strong>Highwaysinstitute@gmail.com</strong> 
+            </div>
+            <div class="divComienzo"> 
+             <p class="derechos"><small> <em> <strong> - Highways Institute 2022, Todos los derechos reservados - </strong></em></small></p> 
+            </div>
+          </footer>
+  </body>
+</html>
+
+

@@ -1,0 +1,611 @@
+
+/* GENERAL */ 
+
+body {
+     margin: 0;
+   }
+
+
+.body, .bodyNosotros {
+
+    background: linear-gradient(rgb(127, 243, 243),white,orange);
+}
+
+
+* {
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+.highwayslogoEncabezado {
+
+    width: 100px;
+    height: 100px;
+    border-radius: 250%;
+
+}
+
+/* ENCABEZADO */
+
+.encabezado {
+
+    background-image: url(../pages/Pictures/footer2.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+}
+
+
+/* HOME */
+
+
+#título {
+
+    font-weight: bold;
+}
+
+.tituloh1, .tituloEmpresa {
+    color: rgb(2, 2, 70);
+    text-align: center;
+    border: groove blue;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow:  10px 5px 15px orange;
+    outline: 1px solid orangered;
+    font-size: 3rem;
+    background-color: white;
+
+} 
+
+.makeYourWay {
+
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 4rem;
+    text-decoration: none;
+    margin-bottom: 0;
+
+}
+
+.intro {
+
+    text-align: center;
+    font-size: x-large;
+    padding-top: 50px;
+
+ }
+
+
+.contenedorHome {
+
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: solid  rgb(27, 5, 172);
+    outline: 1px solid orangered;
+
+}
+
+.parrafoIndex {
+
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+
+.cursosDeIngles, .examenes, .descuentos {
+
+    text-align: center;
+    padding-bottom: 50px;
+
+}
+
+.cursosDeIngles {
+
+    background-color: rgb(150, 240, 240);
+
+}
+
+.enlace1, .enlace3 {
+
+    text-decoration: none;
+}
+
+.cursosDeIngles:hover, .descuentos:hover {
+
+    transform: scale(1.1);
+}
+
+
+.examenes {
+
+    background-color: rgb(245, 239, 236);
+
+}
+
+.descuentos {
+
+    background-color: rgb(248, 204, 83);
+   
+}
+
+
+.alumnoEstudiando , .examenOnline, .recomendacion {
+
+    width: 600px;
+}
+
+
+/* MENU DE NAVEGACIÓN */
+
+
+.menu{
+
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    gap: 20px;
+
+}
+
+.menuNav {
+
+    background-color:rgb(118, 227, 248);
+    border: solid 2px rgb(27, 5, 172);
+    outline: 1px solid orangered;
+    border-radius: 5px;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+
+} 
+
+
+.menuNav:hover {
+
+     background-color: rgb(251, 194, 79);
+
+    }
+
+
+.cuerpo1 {
+
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+
+} 
+
+
+/* LISTA DESORDENADA */
+
+
+li {
+
+    color: blue;
+    display: inline;
+
+}
+
+
+li:hover {
+
+    color: lightseagreen;
+
+}
+
+
+/* ENLACES */
+
+
+a:hover {
+
+    color: orangered;
+
+}
+
+a:active {
+
+    color: palevioletred;
+
+}
+
+
+/* H2 / SUBTITULOS */
+
+
+h2 {
+
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(1, 1, 49);
+
+}
+
+/* PARRAFOS */
+
+
+p {
+
+    color: rgb(3, 3, 95);
+    text-align: justify;
+
+}
+
+
+/* FOOTER*/
+
+
+.footer {
+
+    background-color: rgb(0, 43, 91);
+    width: auto;
+
+} 
+
+
+.highwayslogoEncabezado2 {
+
+    margin-left: 100px;
+
+}
+
+
+.logoFooter {
+
+    width: 40px;
+    height: 40px;
+
+}
+
+.contactanos {
+
+    text-decoration: underline;
+
+}
+
+
+.contactanos , .divWP , .divIG , .divMail  {
+
+    color: white;
+
+}
+
+#comienzo, .derechos {
+
+    text-align: center;
+    display: block;
+    color: white;
+
+}
+
+.derechos {
+
+    margin: 0;
+}
+
+/* NOSOTROS */ 
+
+
+.general {
+
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.nosotros {
+
+    background-color: rgba(189, 246, 240, 0.895);
+    width: 500px;
+    height: 700px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    flex-direction: column;
+    display: flex;
+    border-radius: 50px;
+    overflow: hidden;
+    border: 3px solid  rgb(27, 5, 172);
+    outline: 1px solid orangered;
+    text-align: center;
+
+}
+
+
+.parrafo1 {
+
+    padding: 15px;
+    text-align: center;
+
+}
+ 
+ .elegirnos {
+
+    height: 400px;
+
+}
+ 
+
+/* LINKING PARTNERS */
+
+ 
+.mainLinkingPartners {
+
+    background-image: url(../pages/Pictures/HLFILTRADA.png);
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: auto; 
+
+}
+
+
+.queEsLinkingParters {
+
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+
+table, Th, td {
+
+    border: 1px solid black;
+
+}
+
+
+.tablaDeprecios, .tablaDeejemplificacion {
+
+    border-color: orangered;
+    width: 500px;
+
+}
+
+ .basesYCondiciones {
+
+    text-decoration: underline;
+
+    }
+
+
+/* INSCRIPCIONES */
+
+
+.tituloPrincipalInscripciones {
+
+     font-size: 3rem; 
+
+}
+
+
+.mainInscripciones {
+
+    background-image: url(../pages/Pictures/HLFILTRADA.png);
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: auto; 
+
+}
+
+     
+/* PREGUNTAS FRECUENTES */ 
+
+
+.preguntas {
+
+   background-color: rgba(238, 247, 246, 0.895);
+   border: 2px solid black;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   margin: 80px 0px 80px 0px;
+
+}
+
+
+.p1, .p2 {
+
+    text-align: center;
+
+}
+
+
+/* CURSOS Y CAPACITACIONES */
+
+.contenedorCursos {
+   
+    display: grid;
+    padding-top:80px;
+    padding-bottom: 80px;
+    gap: 40px;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr  ;
+   
+}
+
+.contenedorCursos > p {
+
+    justify-content: center;
+    text-align: center;
+
+}
+
+.tituloCurso {
+    background-color: rgb(248, 250, 252); 
+ }
+
+ .elementoCYP {
+    
+    background-color: rgb(216, 247, 246);
+    text-align: center;
+    border-radius: 10%;
+
+ }
+
+ .tituloCurso, .elementoCYP {
+    text-align: center;
+    border: solid  rgb(27, 5, 172);
+    outline: 1px solid orangered;
+    margin-top: 30px;
+ }
+
+
+.curso1 {
+
+    background-image: url(../pages/Pictures/curso1.jpg);
+
+}
+
+
+.curso2 {
+
+    background-image: url(../pages/Pictures/curso2.jpg);
+
+}
+
+
+.curso3 {
+
+     background-image: url(../pages/Pictures/curso3.jpg);
+
+}
+
+
+.curso4 {
+
+    background-image: url(../pages/Pictures/curso4.jpg);
+}
+
+
+
+.curso5 {
+
+    background-image: url(../pages/Pictures/curso5.jpg);
+}
+
+
+.curso6 {
+    background-image: url(../pages/Pictures/curso6.jpg);    
+}
+
+
+.curso1, .curso2, .curso3, .curso4, .curso5, .curso6 {
+
+    height: 150px;
+    background-position: center center;
+    background-size: cover;
+    margin-right: 15px;
+    margin-left: 15px;
+
+}
+
+
+
+.p1 {
+
+    margin: 20px;
+}
+
+
+
+.elemento {
+
+    flex: 1;
+}
+
+
+
+/* MEDIA QUERIES */
+
+
+@media screen and (max-width: 480px) {
+   
+   
+    .contenedorCursos {
+      
+       display: flex;
+       flex-direction: column;
+    }
+
+
+    .nosotros {
+
+        width: 100%;
+        gap: 0px;
+        margin-top: 30px;
+       
+    }
+
+
+    .menu {
+      
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     }
+
+     .encabezado {
+      
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      
+     }
+
+     .general {
+      
+        display: flex;
+        flex-direction: column;
+     }
+ 
+     
+     .contenedorGaleria {
+
+       
+        grid-template-columns: 1fr;
+ 
+       }
+
+
+     .tablaDeprecios, .tablaDeejemplificacion {
+
+       width: 100%;
+     }
+
+
+     .contenedorHome {
+
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        
+    }
+
+    .alumnoEstudiando , .examenOnline, .recomendacion {
+
+        width: 100%;
+       
+    }
+}
+
+    
+
+
+
+
+
