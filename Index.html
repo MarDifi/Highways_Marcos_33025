@@ -6,10 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Highways Institute</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/animate.min.css">
+    <link rel="stylesheet" href="./css/animate.css">
     <link rel="stylesheet" href="./css/Style_Index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kaushan+Script&display=swap" rel="stylesheet">
+    <script src="js/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
   </head>
  
   <body class="body">
@@ -20,9 +26,9 @@
           <span id="título" class="tituloh1">Highways Institute </span> 
         </div> 
 
-          <h1 class="makeYourWay">- Make Your Way Towards Excellence -</h1>
+          <h1 class="makeYourWay animate__animated animate__backInLeft">- Make Your Way Towards Excellence -</h1>
           
-          <div class="menuNav">
+          <div class="menuNav animate__animated animate__backInRight  ">
             <nav class="navbar bg-light">
               <form class="container-fluid justify-content-start">
                 <a href="./pages/cursosYCapacitaciones.html" rel="noopener noreferrer"> <button class="btn btn-sm btn-outline-secondary" type="button">Cursos y capacitaciones</button></a>
@@ -35,21 +41,6 @@
         </div>
       </header> 
 
-
-          <!-- MENU DE NAVEGACION DE PRUEBA
-            
-            <div class="cuerpo1">
-            <div>
-                <ul class="menu">
-                  <li class="menuNav"> <a href="./pages/cursosYCapacitaciones.html" rel="noopener noreferrer"> Cursos y capacitaciones </a></li>
-                  <li class="menuNav"> <a href="./pages/LinkingPartners.html" rel="noopener noreferrer">  Linking Partners </a></li>
-                  <li class="menuNav"> <a href="./pages/preguntasFrecuentes.html" rel="noopener noreferrer"> Preguntas frecuentes  </a> </li>
-                  <li class="menuNav"> <a href="./pages/inscripciones.html" rel="noopener noreferrer">  Inscripciones </a></li>  
-                  <li class="menuNav"> <a href="./pages/Nostros.html" rel="noopener noreferrer"> Nosotros </a></li>
-                </ul>
-            </div> 
-           </div> -->
-     
           <p class="intro"><strong>   Querés estudiar inglés? En Highways ofrecemos clases virtuales de calidad para alumnos de todos las edades y niveles.
             Ya sea desde clases de apoyo escolar o universitario, hasta clases de conversación para estudiantes avanzados, nos dedicamos a ayudarte
             a aprender, o simplemente perfeccionar todas tus habilidades en el dominio de la lengua inglesa. <br><em> Hesitate no more! Come study with us! </em></strong>
@@ -58,37 +49,41 @@
 
         <!-- carrousel -->
 
-
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="./Pictures/cursoingles2.jpg" class="d-block w-100"  alt="..."  >
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img src="./Pictures/carrusel1.jpg" class="d-block w-100" alt="...">
             </div>
-            <div class="carousel-item ">
-              <img src="./Pictures/cursoingles3.jpg" class="d-block w-100" alt="..." >
+            <div class="carousel-item" data-bs-interval="10000">
+              <img src="./Pictures/carrusel2.jpg" class="d-block w-100" alt="...">
             </div>
-            <div class="carousel-item ">
-              <img src="./Pictures/cursoingles4.jpg" class="d-block w-100" alt="..." >
+            <div class="carousel-item" data-bs-interval="10000">
+              <img src="./Pictures/carrusel3.jpg" class="d-block w-100" alt="...">
             </div>
-            <div class="carousel-item ">
-              <img src="./Pictures/cursoingles5.jpg" class="d-block w-100" alt="..."  >
+            <div class="carousel-item" data-bs-interval="10000">
+              <img src="./Pictures/carrusel4.jpg" class="d-block w-100" alt="...">
             </div>
-            <div class="carousel-item ">
-              <img src="./Pictures/cursoingles6.jpg" class="d-block w-100" alt="..."  >
+            <div class="carousel-item" data-bs-interval="10000">
+              <img src="./Pictures/carrusel5.jpg" class="d-block w-100" alt="...">
             </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <div class="carousel-item" data-bs-interval="10000">
+              <img src="./Pictures/carrusel6.avif" class="d-block w-100" alt="...">
+            </div>
+           </div>
+
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
           </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
         </div>
-        <!-- carrousel -->
 
-        <div class="contenedorHome"> 
+        <!-- fin del carrousel -->
+
+        <div class="contenedorHome wow animate__rollIn"> 
 
           <div class="cursosDeIngles" > 
             <a class="enlace1" href="./pages/cursosYCapacitaciones.html" rel="noopener noreferrer">
@@ -137,8 +132,6 @@
             <div class="divComienzo"> 
               <a id="comienzo" href="#título" rel="noopener noreferrer">ir al comienzo</a>
               <p class="derechos"><small> <em> <strong> - Highways Institute 2022, Todos los derechos reservados - </strong></em></small></p> 
-              
-              <p> prueba 1</p>
             </div>
         </footer>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
