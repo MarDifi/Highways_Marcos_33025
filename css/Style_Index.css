@@ -69,6 +69,8 @@ body {
     font-size: 4rem;
     text-decoration: none;
     margin-bottom: 0;
+    margin-bottom: 50px;
+    margin-top: 50px;
 
 }
 
@@ -155,24 +157,20 @@ body {
 
 .menuNav {
 
-    background-color:rgb(118, 227, 248);
-    border: solid 2px rgb(27, 5, 172);
-    outline: 1px solid orangered;
-    border-radius: 5px;
-    padding: 15px;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-weight: bold;
+  display: flex;
+  justify-content: center;
+
 
 } 
 
+.btn {
 
-.menuNav:hover {
+    padding: 10px;
+    margin: 10px;
+}
 
-     background-color: rgb(251, 194, 79);
 
-    }
+
 
 
 .cuerpo1 {
@@ -301,7 +299,7 @@ p {
 
 }
 
-.nosotros {
+ .card  {
 
     background-color: rgba(189, 246, 240, 0.895);
     width: 500px;
@@ -318,12 +316,16 @@ p {
 
 }
 
+.card-title, .card-text {
 
-.parrafo1 {
+    text-align: center;
+}
+
+
+.card-text {
 
     padding: 15px;
-    text-align: center;
-
+   
 }
  
  .elegirnos {
@@ -439,88 +441,6 @@ table, Th, td {
 
 }
 
-.tituloCurso {
-    background-color: rgb(248, 250, 252); 
- }
-
- .elementoCYP {
-    
-    background-color: rgb(216, 247, 246);
-    text-align: center;
-    border-radius: 10%;
-
- }
-
- .tituloCurso, .elementoCYP {
-    text-align: center;
-    border: solid  rgb(27, 5, 172);
-    outline: 1px solid orangered;
-    margin-top: 30px;
- }
-
-
-.curso1 {
-
-    background-image: url(../Pictures/curso1.jpg);
-
-}
-
-
-.curso2 {
-
-    background-image: url(../Pictures/curso2.jpg);
-
-}
-
-
-.curso3 {
-
-     background-image: url(../Pictures/curso3.jpg);
-
-}
-
-
-.curso4 {
-
-    background-image: url(../Pictures/curso4.jpg);
-}
-
-
-
-.curso5 {
-
-    background-image: url(../Pictures/curso5.jpg);
-}
-
-
-.curso6 {
-    background-image: url(../Pictures/curso6.jpg);    
-}
-
-
-.curso1, .curso2, .curso3, .curso4, .curso5, .curso6 {
-
-    height: 150px;
-    background-position: center center;
-    background-size: cover;
-    margin-right: 15px;
-    margin-left: 15px;
-
-}
-
-
-
-.p1 {
-
-    margin: 20px;
-}
-
-
-
-.elemento {
-
-    flex: 1;
-}
 
 
 
@@ -628,5 +548,6 @@ table, Th, td {
    70% {background-image: url(../Pictures/cursoingles5.jpg);}
     90%{background-image: url(../Pictures/cursoingles6.jpg);} */
     
+   
     
-
+ 
