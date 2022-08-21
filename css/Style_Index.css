@@ -30,7 +30,7 @@ body {
 
 .encabezado {
 
-    background-image: url(../Pictures/england8.jpg);
+    background-image: url(../Pictures/primera.jpg);
     background-size: cover;
     background-position: center center;
     height: 350px;
@@ -82,6 +82,15 @@ body {
 
  }
 
+ .carousel-item {
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center bottom scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
 
 .contenedorHome {
 
@@ -146,22 +155,15 @@ body {
 /* MENU DE NAVEGACIÓN */
 
 
-.menu{
 
-    margin-top: 30px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
-    gap: 20px;
-
-}
 
 .menuNav {
 
   display: flex;
   justify-content: center;
 
-
 } 
+
 
 .btn {
 
@@ -170,50 +172,15 @@ body {
 }
 
 
-
-
-
 .cuerpo1 {
 
     padding-top: 30px;
-    display: flex;
-    justify-content: center;
+
 
 } 
 
 
-/* LISTA DESORDENADA */
 
-
-li {
-
-    color: blue;
-    display: inline;
-
-}
-
-
-li:hover {
-
-    color: lightseagreen;
-
-}
-
-
-/* ENLACES */
-
-
-a:hover {
-
-    color: orangered;
-
-}
-
-a:active {
-
-    color: palevioletred;
-
-}
 
 
 /* H2 / SUBTITULOS */
@@ -310,7 +277,6 @@ p {
     display: flex;
     border-radius: 50px;
     overflow: hidden;
-    border: 3px solid  rgb(27, 5, 172);
     outline: 1px solid orangered;
     text-align: center;
 
@@ -353,6 +319,7 @@ p {
 
     text-align: center;
     margin-bottom: 50px;
+    margin-top: 50px;
 
 }
 
@@ -525,36 +492,4 @@ table, Th, td {
 
     
 
-
-
-/* .cursosDeIngles {
-
-    background-color: rgb(150, 240, 240);
-    animation-name: primera_index;
-    animation-iteration-count: infinite;
-    animation-duration: 5s;
-    animation-delay: 5s;
-    animation-timing-function: ease-in-out;
-
-}
-
-
-@keyframes primera_index {
-
-    0% {background-image: url(../Pictures/cursoingles.jpg);}
-    10% {background-image: url(../Pictures/cursoingles2.jpg);}
-   30% {background-image: url(../Pictures/cursoingles3.jpg);}
-    50% {background-image: url(../Pictures/cursoingles4.jpg);}
-   70% {background-image: url(../Pictures/cursoingles5.jpg);}
-    90%{background-image: url(../Pictures/cursoingles6.jpg);} */
-    
    
-    .carousel-item {
-        height: 100vh;
-        min-height: 300px;
-        background: no-repeat center bottom scroll;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-      }
