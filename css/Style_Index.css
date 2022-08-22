@@ -433,7 +433,7 @@ table, Th, td {
     }
 
 
-    .menu {
+    .container-fluid {
       
         display: flex;
         flex-direction: column;
@@ -447,6 +447,7 @@ table, Th, td {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        width: 100%;
       
      }
 
