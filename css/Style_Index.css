@@ -3,17 +3,21 @@
 
 body {
      margin: 0;
+     
    }
 
 
  .body, .bodyNosotros {
 
     background: linear-gradient(rgb(127, 243, 243),white,orange);
+    
 } 
 
 
 * {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Dancing Script', cursive;
+     font-family: 'Kaushan Script', cursive;
+     font-family: 'Roboto', sans-serif;
 
 }
 
@@ -30,10 +34,10 @@ body {
 
 .encabezado {
 
-    background-image: url(../Pictures/primera.jpg);
+    background-image: url(../Pictures/banner4.jpg);
     background-size: cover;
     background-position: center center;
-    height: 350px;
+    height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -78,7 +82,12 @@ body {
 
     text-align: center;
     font-size: x-large;
+    font-weight: bold;
+    margin-left: 80px;
+    margin-right: 80px;
+    
     padding-top: 50px;
+    
 
  }
 
@@ -161,8 +170,9 @@ body {
 
   display: flex;
   justify-content: center;
-
+  
 } 
+
 
 
 .btn {
@@ -303,48 +313,66 @@ p {
 
 /* LINKING PARTNERS */
 
- 
-.mainLinkingPartners {
+.bases {
 
     background-image: url(../Pictures/HLFILTRADA.png);
     border-radius: 50%;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center top;
     background-size: auto; 
 
 }
+ 
 
-
-.queEsLinkingParters {
-
+.queEsLinkingParters, .masInfoLP , .tablaDeejemplificacion {
+    text-decoration: underline;
     text-align: center;
+    font-weight: bold;
     margin-bottom: 50px;
     margin-top: 50px;
 
 }
 
+.parrafo1LP, .parrafo2LP, .parrafo3LP, .h3LP, .ultimoParrafoLP {
 
-table, Th, td {
-
-    border: 1px solid black;
-
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
+.container, .col {
 
-.tablaDeprecios, .tablaDeejemplificacion {
-
-    border-color: orangered;
-    width: 500px;
-
+    border: 1px solid rgb(5, 3, 67);
+    outline: 1px solid rgb(232, 133, 4);
+   font-weight: bold;
 }
 
- .basesYCondiciones {
+.container, .ultimoParrafoLP, .basesYCondiciones {
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+ .basesYCondiciones  {
 
     text-decoration: underline;
-
+    margin-left: 50px;
+    
     }
 
+    .basesItem {
 
+        margin-left: 100px;
+        margin-bottom: 30px;
+    }
+
+    .parrafoBases {
+
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+   
 /* INSCRIPCIONES */
 
 
