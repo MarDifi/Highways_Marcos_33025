@@ -6,10 +6,10 @@ body {
    }
 
 
-.body, .bodyNosotros {
+ .body, .bodyNosotros {
 
     background: linear-gradient(rgb(127, 243, 243),white,orange);
-}
+} 
 
 
 * {
