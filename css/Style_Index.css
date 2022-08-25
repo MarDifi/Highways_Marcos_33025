@@ -15,7 +15,7 @@ body {
 
 
 * {
-    font-family: 'Dancing Script', cursive;
+     font-family: 'Dancing Script', cursive;
      font-family: 'Kaushan Script', cursive;
      font-family: 'Roboto', sans-serif;
 
@@ -34,7 +34,7 @@ body {
 
 .encabezado {
 
-    background-image: url(../Pictures/banner4.jpg);
+    background-color: rgb(0, 43, 91);
     background-size: cover;
     background-position: center center;
     height: 400px;
@@ -49,12 +49,9 @@ body {
 /* HOME */
 
 
-#título {
-
-    font-weight: bold;
-}
 
 .tituloh1, .tituloEmpresa {
+
     color: rgb(2, 2, 70);
     text-align: center;
     border: groove blue;
@@ -66,7 +63,7 @@ body {
 
 } 
 
-.makeYourWay {
+.makeYourWay, .studyEnglish {
 
     text-align: center;
     font-family: 'Kaushan Script', cursive;
@@ -85,7 +82,6 @@ body {
     font-weight: bold;
     margin-left: 80px;
     margin-right: 80px;
-    
     padding-top: 50px;
     
 
@@ -118,41 +114,50 @@ body {
 }
 
 
-.cursosDeIngles, .examenes, .descuentos {
 
-    text-align: center;
-    padding-bottom: 50px;
-
-}
-
-.cursosDeIngles {
-
-    background-color: rgb(150, 240, 240);
-  
-}
 
 .enlace1, .enlace3 {
 
     text-decoration: none;
 }
 
-.cursosDeIngles:hover, .descuentos:hover {
+.contenedorIndex1 {
+
+    display: flex;
+}
+   
+
+
+.cuadro1, .cuadro2, .cuadro3 {
+
+    text-align: center;
+    padding-bottom: 50px;
+  
+
+}
+
+.card1:hover, .card3:hover { 
 
     transform: scale(1.1);
 }
 
+.card1 {
 
-.examenes {
-
-    background-color: rgb(245, 239, 236);
-
+    background-color: orange;
 }
 
-.descuentos {
+.contenedorIndex1 {
 
-    background-color: rgb(248, 204, 83);
-   
+    display: flex;
+    justify-content: space-evenly;
 }
+
+a {
+
+    text-decoration: none;
+}
+
+
 
 
 .alumnoEstudiando , .examenOnline, .recomendacion {
@@ -162,7 +167,6 @@ body {
 
 
 /* MENU DE NAVEGACIÓN */
-
 
 
 
@@ -292,6 +296,35 @@ p {
 
 }
 
+.card1 {
+
+    background-color: rgb(172, 237, 250);
+}
+
+.card2 {
+
+    background-color: rgb(244, 249, 250);
+}
+
+.card3 {
+
+    background-color: rgba(251, 167, 72, 0.687);
+}
+
+a {
+    color: black;
+}
+
+a:visited {
+
+    color: black;
+}
+
+a:active {
+
+    color: orangered;
+}
+
 .card-title, .card-text {
 
     text-align: center;
@@ -401,18 +434,8 @@ p {
 
    background-color: rgba(238, 247, 246, 0.895);
    border: 2px solid black;
-   text-align: center;
-   justify-content: center;
-   align-items: center;
-   margin: 80px 0px 80px 0px;
-
-}
-
-
-.p1, .p2 {
-
-    text-align: center;
-
+   margin-top: 50px;
+  
 }
 
 
@@ -435,8 +458,6 @@ p {
     
 
 } 
-
-
 
 
 /* MEDIA QUERIES */
@@ -515,10 +536,7 @@ p {
     .alumnoEstudiando , .examenOnline, .recomendacion {
 
         width: 100%;
-       
+
     }
+
 }
-
-    
-
-   
