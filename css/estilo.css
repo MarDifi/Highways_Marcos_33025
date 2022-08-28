@@ -1,0 +1,55 @@
+/*Preguntas frecuentes*/
+.preguntas {
+  border: 2px solid black;
+  outline: 3px solid orangered;
+  margin-top: 50px; }
+  .preguntas .accordion-button {
+    background-color: #90d2ef;
+    font-weight: bold; }
+
+.accordion-body {
+  font-style: italic; }
+
+.preguntas {
+  background-color: rgba(238, 247, 246, 0.895);
+  border: 2px solid black;
+  margin-top: 50px; }
+
+/* Linking partners */
+.queEsLinkingParters, .masInfoLP, .tablaDeejemplificacion {
+  text-decoration: underline;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 50px;
+  margin-top: 50px; }
+
+.parrafo1LP, .parrafo2LP, .parrafo3LP, .h3LP, .ultimoParrafoLP {
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px; }
+
+.container, .col {
+  border: 1px solid #050343;
+  outline: 1px solid #e88504;
+  font-weight: bold; }
+
+.container, .ultimoParrafoLP, .basesYCondiciones {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.basesYCondiciones {
+  text-decoration: underline;
+  margin-left: 50px; }
+
+.bases {
+  background-image: url(../Pictures/HLFILTRADA.png);
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: auto; }
+  .bases .basesItem {
+    margin-left: 100px;
+    margin-bottom: 30px; }
+    .bases .basesItem .parrafoBases {
+      margin-left: 100px;
+      margin-right: 100px; }

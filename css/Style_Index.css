@@ -344,18 +344,8 @@ a:active {
 }
  
 
-/* LINKING PARTNERS */
+/* LINKING PARTNERS 
 
-.bases {
-
-    background-image: url(../Pictures/HLFILTRADA.png);
-    border-radius: 50%;
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: auto; 
-
-}
- 
 
 .queEsLinkingParters, .masInfoLP , .tablaDeejemplificacion {
     text-decoration: underline;
@@ -386,6 +376,7 @@ a:active {
     margin-bottom: 50px;
 }
 
+
  .basesYCondiciones  {
 
     text-decoration: underline;
@@ -393,18 +384,29 @@ a:active {
     
     }
 
-    .basesItem {
+    
+    .bases {
 
+        background-image: url(../Pictures/HLFILTRADA.png);
+        border-radius: 50%;
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: auto; 
+    
+    }
+     
+    .basesItem {
+    
         margin-left: 100px;
         margin-bottom: 30px;
     }
-
+    
     .parrafoBases {
-
+    
         margin-left: 100px;
         margin-right: 100px;
-    }
-
+    } */
+   
    
 /* INSCRIPCIONES */
 
@@ -427,7 +429,7 @@ a:active {
 }
 
      
-/* PREGUNTAS FRECUENTES */ 
+/* PREGUNTAS FRECUENTES 
 
 
 .preguntas {
@@ -436,7 +438,7 @@ a:active {
    border: 2px solid black;
    margin-top: 50px;
   
-}
+} */ 
 
 
 /* CURSOS Y CAPACITACIONES */
