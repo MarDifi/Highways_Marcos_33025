@@ -30,8 +30,13 @@
 
 .container, .col {
   border: 1px solid #050343;
-  outline: 1px solid #e88504;
+  outline: 1px solid #f8650a;
   font-weight: bold; }
+  .container .col, .col .col {
+    background-color: #90d2ef; }
+
+.container2 .col {
+  background-color: #f5c05f; }
 
 .container, .ultimoParrafoLP, .basesYCondiciones {
   margin-top: 50px;
@@ -50,6 +55,7 @@
   .bases .basesItem {
     margin-left: 100px;
     margin-bottom: 30px; }
-    .bases .basesItem .parrafoBases {
-      margin-left: 100px;
-      margin-right: 100px; }
+
+.parrafoBases {
+  margin-left: 100px;
+  margin-right: 100px; }

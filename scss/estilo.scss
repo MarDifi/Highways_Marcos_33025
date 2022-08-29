@@ -43,6 +43,8 @@ $colorbg: rgb(144, 210, 239);
     margin-bottom: 50px;
     margin-top: 50px;
 
+    
+
 }
 
 .parrafo1LP, .parrafo2LP, .parrafo3LP, .h3LP, .ultimoParrafoLP {
@@ -55,8 +57,23 @@ $colorbg: rgb(144, 210, 239);
 .container, .col {
 
     border: 1px solid rgb(5, 3, 67);
-    outline: 1px solid rgb(232, 133, 4);
-   font-weight: bold;
+    outline: 1px solid rgb(248, 101, 10);
+    font-weight: bold;
+
+    .col {
+
+      background-color: $colorbg;
+    }
+}
+
+
+.container2 {
+
+  .col {
+
+    background-color: rgb(245, 192, 95);
+    
+  }
 }
 
 .container, .ultimoParrafoLP, .basesYCondiciones {
@@ -85,13 +102,13 @@ $colorbg: rgb(144, 210, 239);
 
         margin-left: 100px;
         margin-bottom: 30px;  
-
-        .parrafoBases {
-
-          margin-left: 100px;
-          margin-right: 100px;
-        }
+   
     }
   
       }
   
+      .parrafoBases {
+
+        margin-left: 100px;
+        margin-right: 100px;
+      }

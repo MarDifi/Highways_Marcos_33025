@@ -34,10 +34,10 @@ body {
 
 .encabezado {
 
-    background-color: rgb(0, 43, 91);
+    background-image: url(../Pictures/banner.png);
     background-size: cover;
     background-position: center center;
-    height: 400px;
+    height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -141,10 +141,6 @@ body {
     transform: scale(1.1);
 }
 
-.card1 {
-
-    background-color: orange;
-}
 
 .contenedorIndex1 {
 
@@ -224,7 +220,7 @@ p {
 
 .footer {
 
-    background-color: rgb(38, 43, 49);
+    background-color: rgb(0, 43, 91);
     width: auto;
 
 } 
@@ -296,20 +292,7 @@ p {
 
 }
 
-.card1 {
 
-    background-color: rgb(172, 237, 250);
-}
-
-.card2 {
-
-    background-color: rgb(244, 249, 250);
-}
-
-.card3 {
-
-    background-color: rgba(251, 167, 72, 0.687);
-}
 
 a {
     color: black;
