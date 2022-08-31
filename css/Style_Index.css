@@ -276,7 +276,7 @@ p {
 
 }
 
- .card  {
+ /* .card  {
 
     background-color: rgba(189, 246, 240, 0.895);
     width: 500px;
@@ -290,7 +290,9 @@ p {
     outline: 1px solid orangered;
     text-align: center;
 
-}
+} */
+
+
 
 
 
@@ -525,3 +527,6 @@ a:active {
     }
 
 }
+
+
+

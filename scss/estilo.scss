@@ -1,8 +1,77 @@
 
 $colorbg: rgb(144, 210, 239);
 
+@mixin size ($alto, $ancho){
 
-/*Preguntas frecuentes*/
+  width: $ancho;
+  height: $alto;
+  
+}
+
+/*MENU DE NAVEGACION*/ 
+
+/*remover estas lineas de codigo para acomodar el menu a su estado original*/
+
+$menu: (
+
+  orange1: #f5ddb0,
+  orange2: rgb(237, 207, 123),
+  orange3: rgb(244, 192, 95),
+  orange4: rgb(249, 186, 69),
+  orange5: orange
+
+);
+
+@each $item, $color in $menu {
+.color-#{$item} {
+  background-color: $color;
+}
+
+}
+
+/*INDEX */
+
+.card  {
+
+  background-color: rgba(189, 246, 240, 0.895);
+  // width: 500px;
+  // height: 700px;
+  @include size(700px,500px );
+  margin-top: 20px;
+  margin-bottom: 20px;
+  flex-direction: column;
+  display: flex;
+  border-radius: 50px;
+  overflow: hidden;
+  outline: 1px solid orangered;
+  text-align: center;
+
+}
+
+
+.card1 {
+
+  @extend .card;
+  background-color: rgba(172, 237, 250, 0.962);
+  @include size(650px,450px );
+}
+
+.card2 {
+   @extend .card;
+   background-color: rgb(238, 243, 247);
+   @include size(650px,450px );
+}
+
+.card3 {
+
+  @extend .card;
+  background-color: rgb(251, 170, 100);
+  @include size(650px,450px );
+}
+
+
+
+/*PREGUNTAS FRECUENTES*/
   
 .preguntas {
 
@@ -33,7 +102,7 @@ $colorbg: rgb(144, 210, 239);
    
  }
   
-  /* Linking partners */
+  /* LINKING PARTNERS */
 
 
   .queEsLinkingParters, .masInfoLP , .tablaDeejemplificacion {
@@ -112,3 +181,8 @@ $colorbg: rgb(144, 210, 239);
         margin-left: 100px;
         margin-right: 100px;
       }
+
+
+
+
+  

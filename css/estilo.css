@@ -1,4 +1,50 @@
-/*Preguntas frecuentes*/
+/*MENU DE NAVEGACION*/
+/*remover estas lineas de codigo para acomodar el menu a su estado original*/
+.color-orange1 {
+  background-color: #f5ddb0; }
+
+.color-orange2 {
+  background-color: #edcf7b; }
+
+.color-orange3 {
+  background-color: #f4c05f; }
+
+.color-orange4 {
+  background-color: #f9ba45; }
+
+.color-orange5 {
+  background-color: orange; }
+
+/*INDEX */
+.card, .card1, .card2, .card3 {
+  background-color: rgba(189, 246, 240, 0.895);
+  width: 500px;
+  height: 700px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  flex-direction: column;
+  display: flex;
+  border-radius: 50px;
+  overflow: hidden;
+  outline: 1px solid orangered;
+  text-align: center; }
+
+.card1 {
+  background-color: rgba(172, 237, 250, 0.962);
+  width: 450px;
+  height: 650px; }
+
+.card2 {
+  background-color: #eef3f7;
+  width: 450px;
+  height: 650px; }
+
+.card3 {
+  background-color: #fbaa64;
+  width: 450px;
+  height: 650px; }
+
+/*PREGUNTAS FRECUENTES*/
 .preguntas {
   border: 2px solid black;
   outline: 3px solid orangered;
@@ -15,7 +61,7 @@
   border: 2px solid black;
   margin-top: 50px; }
 
-/* Linking partners */
+/* LINKING PARTNERS */
 .queEsLinkingParters, .masInfoLP, .tablaDeejemplificacion {
   text-decoration: underline;
   text-align: center;
