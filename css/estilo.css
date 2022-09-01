@@ -1,3 +1,21 @@
+@charset "UTF-8";
+/* GENERAL */
+body {
+  margin: 0; }
+
+.body, .bodyNosotros {
+  background: linear-gradient(#7ff3f3, white, orange); }
+
+* {
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Kaushan Script', cursive;
+  font-family: 'Roboto', sans-serif; }
+
+.highwayslogoEncabezado {
+  height: 100px;
+  width: 100px;
+  border-radius: 250%; }
+
 /*MENU DE NAVEGACION*/
 /*remover estas lineas de codigo para acomodar el menu a su estado original*/
 .color-orange1 {
@@ -15,11 +33,23 @@
 .color-orange5 {
   background-color: orange; }
 
+/*ENCABEZADO*/
+.encabezado {
+  background-image: url(../Pictures/banner.png);
+  background-size: cover;
+  background-position: center center;
+  height: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px; }
+
 /*INDEX */
 .card, .card1, .card2, .card3 {
   background-color: rgba(189, 246, 240, 0.895);
-  width: 500px;
   height: 700px;
+  width: 500px;
   margin-top: 20px;
   margin-bottom: 20px;
   flex-direction: column;
@@ -31,18 +61,143 @@
 
 .card1 {
   background-color: rgba(172, 237, 250, 0.962);
-  width: 450px;
-  height: 650px; }
+  height: 650px;
+  width: 450px; }
 
 .card2 {
   background-color: #eef3f7;
-  width: 450px;
-  height: 650px; }
+  height: 650px;
+  width: 450px; }
 
 .card3 {
   background-color: #fbaa64;
-  width: 450px;
-  height: 650px; }
+  height: 650px;
+  width: 450px; }
+
+.tituloh1, .tituloEmpresa {
+  color: #03035f;
+  text-align: center;
+  border: groove blue;
+  font-family: 'Times New Roman', Times, serif;
+  text-shadow: 10px 5px 15px orange;
+  outline: 1px solid orangered;
+  font-size: 3rem;
+  background-color: white; }
+
+.makeYourWay, .studyEnglish {
+  text-align: center;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 4rem;
+  text-decoration: none;
+  margin-bottom: 0;
+  margin-bottom: 50px;
+  margin-top: 50px; }
+
+.intro {
+  text-align: center;
+  font-size: x-large;
+  font-weight: bold;
+  margin-left: 80px;
+  margin-right: 80px;
+  padding-top: 50px; }
+
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center bottom scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.contenedorHome {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border: solid #1b05ac;
+  outline: 1px solid orangered; }
+
+.parrafoIndex {
+  text-align: center;
+  font-size: 1.5rem; }
+
+.enlace1, .enlace3 {
+  text-decoration: none; }
+
+.contenedorIndex1 {
+  display: flex; }
+
+.cuadro1, .cuadro2, .cuadro3 {
+  text-align: center;
+  padding-bottom: 50px; }
+
+.card1:hover, .card3:hover {
+  transform: scale(1.1); }
+
+.contenedorIndex1 {
+  display: flex;
+  justify-content: space-evenly; }
+
+a {
+  text-decoration: none; }
+
+/* NOSOTROS */
+.general {
+  display: flex;
+  justify-content: space-evenly; }
+
+a {
+  color: black; }
+
+a:visited {
+  color: black; }
+
+a:active {
+  color: orangered; }
+
+.card-title, .card-text {
+  text-align: center; }
+
+.card-text {
+  padding: 15px; }
+
+.elegirnos {
+  height: 400px; }
+
+/* MENU DE NAVEGACIÓN */
+.menuNav {
+  display: flex;
+  justify-content: center; }
+
+.btn {
+  padding: 10px;
+  margin: 10px; }
+
+.cuerpo1 {
+  padding-top: 30px; }
+
+/* H2 / SUBTITULOS */
+h2 {
+  text-decoration: underline;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #03035f; }
+
+/* PARRAFOS */
+p {
+  color: #03035f;
+  text-align: justify; }
+
+/* CURSOS Y CAPACITACIONES */
+.contenedorCursos {
+  display: grid;
+  justify-items: center;
+  gap: 40px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin-top: 50px; }
+
+.contenedorCursos > p {
+  justify-content: center; }
 
 /*PREGUNTAS FRECUENTES*/
 .preguntas {
@@ -105,3 +260,77 @@
 .parrafoBases {
   margin-left: 100px;
   margin-right: 100px; }
+
+/* INSCRIPCIONES */
+.tituloPrincipalInscripciones {
+  font-size: 3rem; }
+
+.mainInscripciones {
+  background-image: url(../Pictures/HLFILTRADA.png);
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: auto; }
+
+/* FOOTER*/
+.footer {
+  background-color: #002b5b;
+  width: auto; }
+
+.highwayslogoEncabezado2 {
+  margin-left: 100px; }
+
+.logoFooter {
+  width: 40px;
+  height: 40px; }
+
+.contactanos {
+  text-decoration: underline; }
+
+.contactanos, .divWP, .divIG, .divMail {
+  color: white; }
+
+#comienzo, .derechos {
+  text-align: center;
+  display: block;
+  color: white; }
+
+.derechos {
+  margin: 0; }
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 480px) {
+  .contenedorCursos {
+    display: flex;
+    flex-direction: column; }
+  .nosotros {
+    width: 100%;
+    gap: 0px;
+    margin-top: 30px; }
+  .container-fluid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .encabezado {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%; }
+  .general {
+    display: flex;
+    flex-direction: column; }
+  .contenedorGaleria {
+    grid-template-columns: 1fr; }
+  .tablaDeprecios, .tablaDeejemplificacion {
+    width: 100%; }
+  .contenedorHome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%; }
+  .alumnoEstudiando, .examenOnline, .recomendacion {
+    width: 100%; } }
