@@ -202,13 +202,13 @@ a {
 
 .container, .ultimoParrafoLP, .basesYCondiciones {
   margin-top: 50px;
-  margin-right: 0;
+  margin-right: auto;
   margin-bottom: 50px;
-  margin-left: 0; }
+  margin-left: auto; }
 
 .basesYCondiciones {
   text-decoration: underline;
-  margin-top: 0;
+  margin-top: 100px;
   margin-right: 0;
   margin-bottom: 0;
   margin-left: 50px; }
@@ -220,7 +220,7 @@ a {
   background-position: center top;
   background-size: auto; }
   .bases .basesItem {
-    margin-top: 0;
+    margin-top: 30px;
     margin-right: 0;
     margin-bottom: 30px;
     margin-left: 100px; }

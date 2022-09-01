@@ -34,7 +34,6 @@ body {
 
 * {
 
-
   font-family: 'Roboto', sans-serif;
 
 }
@@ -116,7 +115,6 @@ $menu: (
 .cuerpo1 {
 
     padding-top: 30px;
-
 
 } 
 
@@ -262,71 +260,73 @@ a {
 
  /* LINKING PARTNERS */
 
- .queEsLinkingParters, .masInfoLP , .tablaDeejemplificacion {
-  text-decoration: underline;
-  text-align: center;
-  font-weight: bold;
- @include margin(50px,0,50px,0)
+  .queEsLinkingParters, .masInfoLP , .tablaDeejemplificacion {
+   text-decoration: underline;
+   text-align: center;
+   font-weight: bold;
+   @include margin(50px,0,50px,0)
 
-}
+ }
 
-.parrafo1LP, .parrafo2LP, .parrafo3LP, .h3LP, .ultimoParrafoLP {
+ .parrafo1LP, .parrafo2LP, .parrafo3LP, .h3LP, .ultimoParrafoLP {
 
-  text-align: center;
-  @include margin(0,100px,0,100px)
-}
+   text-align: center;
+   @include margin(0,100px,0,100px)
+ }
 
-.container, .col {
+ .container, .col {
 
-  border: 1px solid rgb(5, 3,67);
-  outline: 1px solid rgb(248,101,10);
-  font-weight: bold;
-
-  .col {
-
-    background-color: $colorbg;
-  }
-}
-
-
-.container2 {
-
-.col {
-
-  background-color: rgb(245,192,95);
-}
-
-}
-
-.container, .ultimoParrafoLP, .basesYCondiciones {
-
-  @include margin(50px,0,50px,0)
-}
-
-
-.basesYCondiciones  {
-
-  text-decoration: underline;
-  @include margin(0,0,0,50px)
-  
-  }
-
-.bases {
-
-  background-image: url(../Pictures/HLFILTRADA.png);
-  border-radius: 50%;
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-size: auto; 
-  
-  .basesItem {
-
-      @include margin(0,0,30px,100px)
+   border: 1px solid rgb(5, 3,67);
+   outline: 1px solid rgb(248,101,10);
+   font-weight: bold;
  
-  }
+
+   .col {
+
+     background-color: $colorbg;
+   }
+ }
 
 
-    }
+ .container2 {
+
+ .col {
+
+   background-color: rgb(245,192,95);
+ }
+
+ }
+
+
+     .container, .ultimoParrafoLP, .basesYCondiciones {
+
+       @include margin(50px,auto ,50px ,auto );
+     }
+
+
+ .basesYCondiciones  {
+
+   text-decoration: underline;
+   @include margin(100px,0,0,50px);
+  
+   }
+
+ .bases {
+
+   background-image: url(../Pictures/HLFILTRADA.png);
+   border-radius: 50%;
+   background-repeat: no-repeat;
+   background-position: center top;
+   background-size: auto; 
+  
+   .basesItem {
+
+       @include margin(30px,0,30px,100px)
+ 
+   }
+
+
+     }
 
     .parrafoBases {
 
