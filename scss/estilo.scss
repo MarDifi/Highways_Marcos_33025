@@ -1,5 +1,5 @@
 
-$colorbg: rgb(144, 210, 239);
+$colorbg: rgb(247, 204, 124);
 $colortext: rgb(3, 3, 95);
 
 @mixin size ($alto, $ancho){
@@ -16,6 +16,22 @@ $colortext: rgb(3, 3, 95);
   margin-left: $marginLeft;
 }
 
+
+$tarjetitas: (
+
+  celeste: rgb(172, 237, 250),
+  blanco:  rgb(238,243,247),
+  naranja: rgb(251,170,100),
+ 
+
+);
+
+@each $tarjeta, $color in $tarjetitas {
+.color-#{$tarjeta} {
+  background-color: $color;
+}
+
+}
 
 /* GENERAL */ 
 
@@ -71,7 +87,7 @@ p {
   background-image: url(../Pictures/banner.png);
   background-size: cover;
   background-position: center center;
-  @include size(500px,100% );
+  @include size(400px,100% );
   display: flex;
   justify-content: center;
   align-items: center;
@@ -79,44 +95,39 @@ p {
 
 } 
 
-/*MENU DE NAVEGACION*/ 
+/* MENU DE NAVEGACIÓN   -------------------------  REVISAR MIXIN Y EXTEND DE ESTA SECCION Y SUBRAYADOS*/
 
-/*remover estas lineas de codigo para acomodar el menu a su estado original*/
-
-$menu: (
-
-  orange1: #f5ddb0,
-  orange2: rgb(237, 207, 123),
-  orange3: rgb(244, 192, 95),
-  orange4: rgb(249, 186, 69),
-  orange5: orange
-
-);
-
-@each $item, $color in $menu {
-.color-#{$item} {
-  background-color: $color;
-}
-
+.menu{
+   
+  @include margin(80px,0 ,80px ,0 );
+  display: flex;
+  justify-content: center;
+  
+     
 }
 
 .menuNav {
-  display: flex;
-  justify-content: center;
+
+  background-color:rgb(192, 240, 250);
+  border: solid 2px rgb(27, 5, 172);
+  outline: 1px solid orangered;
+  border-radius: 5px;
+  list-style: none;
+  padding: 10px;
+  text-align: center;
+  align-content: center;
+  width: 250px; 
+  font-weight: bold;
+  
 } 
 
 
-.btn {
+.menuNav:hover {
 
-    padding: 10px;
-    @include margin(10px,10px,10px,10px)
+  background-color: rgb(251, 194, 79);
+ 
+
 }
-
-.cuerpo1 {
-
-    padding-top: 30px;
-
-} 
 
 
 /*INDEX */
@@ -125,35 +136,13 @@ $menu: (
 
   @include size(700px,500px);
   @include margin(20px,0,20px,0);
-   border-radius: 50px;
-   overflow: hidden;
-   outline: 1px solid orangered;
+  overflow: hidden;
+  outline: 1px solid orangered;
 
 }
 
 
-.card1 {
-
-  @extend .card;
-  background-color: rgba(172,237,250,0.962);
-  @include size(650px,450px );
-}
-
-.card2 {
-   @extend .card;
-   background-color: rgb(238,243,247);
-   @include size(650px,450px );
-}
-
-.card3 {
-
-  @extend .card;
-  background-color: rgb(251,170,100);
-  @include size(650px,450px );
-}
-
-
-.tituloh1, .tituloEmpresa {
+.tituloEmpresa {
 
   color: $colortext;
   text-align: center;
@@ -165,6 +154,10 @@ $menu: (
   background-color: white;
 
 } 
+
+h1 {
+  @extend .tituloEmpresa;
+}
 
 .makeYourWay, .studyEnglish {
 
@@ -181,7 +174,7 @@ $menu: (
   text-align: center;
   font-size: x-large;
   font-weight: bold;
-  @include margin(50px,80px,0,80px);
+  @include margin(50px,80px,50px,80px);
   
 
 }
@@ -222,10 +215,6 @@ $menu: (
 
 }
 
-.card1:hover, .card3:hover { 
-
-  transform: scale(1.1);
-}
 
 
 .contenedorIndex1 {
@@ -258,6 +247,17 @@ a {
   justify-content: center;
 } 
 
+.tarjetaCurso {
+
+ opacity: 0.5;
+}
+
+.tarjetaCurso:hover {
+
+  transform: scale(1.1);
+  opacity: 1;
+}
+
  /* LINKING PARTNERS */
 
   .queEsLinkingParters, .masInfoLP , .tablaDeejemplificacion {
@@ -287,25 +287,14 @@ a {
    }
  }
 
-
- .container2 {
-
- .col {
-
-   background-color: rgb(245,192,95);
- }
-
- }
-
-
-     .container, .ultimoParrafoLP, .basesYCondiciones {
+   .container, .ultimoParrafoLP, .basesYCondiciones {
 
        @include margin(50px,auto ,50px ,auto );
      }
 
 
  .basesYCondiciones  {
-
+   font-weight: bold;
    text-decoration: underline;
    @include margin(100px,0,0,50px);
   
@@ -321,7 +310,8 @@ a {
   
    .basesItem {
 
-       @include margin(30px,0,30px,100px)
+       @include margin(30px,0,30px,100px);
+       font-weight: bold;
  
    }
 
@@ -374,14 +364,6 @@ a {
   justify-content: space-evenly;
 }
 
-a {
-  color: black;
-}
-
-a:visited {
-
-  color: black;
-}
 
 a:active {
 
@@ -402,26 +384,6 @@ a:active {
 .elegirnos {
 
   height: 400px;
-}
-
-
-/* INSCRIPCIONES */
-
-.tituloPrincipalInscripciones {
-
-  font-size: 3rem; 
-
-}
-
-
-.mainInscripciones {
-
- background-image: url(../Pictures/HLFILTRADA.png);
- border-radius: 50%;
- background-repeat: no-repeat;
- background-position: center center;
- background-size: auto; 
-
 }
 
 
