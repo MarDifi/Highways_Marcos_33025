@@ -9,11 +9,9 @@
   background-color: #fbaa64; }
 
 /* GENERAL */
-body {
-  margin: 0; }
-
 .body, .bodyNosotros {
-  background: linear-gradient(#7ff3f3, white, orange); }
+  background: linear-gradient(#7ff3f3, white, orange);
+  margin: 0; }
 
 * {
   font-family: 'Roboto', sans-serif; }
@@ -44,7 +42,7 @@ p {
   align-items: center;
   gap: 40px; }
 
-/* MENU DE NAVEGACIÓN   -------------------------  REVISAR MIXIN Y EXTEND DE ESTA SECCION Y SUBRAYADOS*/
+/* MENU DE NAVEGACIÓN */
 .menu {
   margin-top: 80px;
   margin-right: 0;
@@ -54,11 +52,12 @@ p {
   justify-content: center; }
 
 .menuNav {
-  background-color: #c0f0fa;
+  background-color: #e4f1f3;
   border: solid 2px #1b05ac;
   outline: 1px solid orangered;
   border-radius: 5px;
   list-style: none;
+  text-decoration: none;
   padding: 10px;
   text-align: center;
   align-content: center;
@@ -69,8 +68,8 @@ p {
   background-color: #fbc24f; }
 
 /*INDEX */
-.card {
-  height: 700px;
+.card, .cardIndex {
+  height: 850px;
   width: 500px;
   margin-top: 20px;
   margin-right: 0;
@@ -78,6 +77,10 @@ p {
   margin-left: 0;
   overflow: hidden;
   outline: 1px solid orangered; }
+
+.cardIndex {
+  height: 700px;
+  width: 500px; }
 
 .tituloEmpresa, h1 {
   color: #03035f;

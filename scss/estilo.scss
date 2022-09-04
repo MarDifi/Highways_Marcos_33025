@@ -35,15 +35,10 @@ $tarjetitas: (
 
 /* GENERAL */ 
 
-body {
-  margin: 0;
-  
-}
-
-
 .body, .bodyNosotros {
 
  background: linear-gradient(rgb(127, 243, 243),white,orange);
+ margin: 0;
  
 } 
 
@@ -95,7 +90,7 @@ p {
 
 } 
 
-/* MENU DE NAVEGACIÓN   -------------------------  REVISAR MIXIN Y EXTEND DE ESTA SECCION Y SUBRAYADOS*/
+/* MENU DE NAVEGACIÓN */
 
 .menu{
    
@@ -108,11 +103,12 @@ p {
 
 .menuNav {
 
-  background-color:rgb(192, 240, 250);
+  background-color:rgb(228, 241, 243);
   border: solid 2px rgb(27, 5, 172);
   outline: 1px solid orangered;
   border-radius: 5px;
   list-style: none;
+  text-decoration: none;
   padding: 10px;
   text-align: center;
   align-content: center;
@@ -134,11 +130,18 @@ p {
 
 .card  {
 
-  @include size(700px,500px);
+  @include size(850px,500px);
   @include margin(20px,0,20px,0);
   overflow: hidden;
   outline: 1px solid orangered;
 
+}
+
+.cardIndex { 
+
+  @extend .card;
+  @include size(700px,500px);
+  
 }
 
 
