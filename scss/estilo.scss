@@ -161,9 +161,9 @@ p {
 
 } 
 
-h1 {
-  @extend .tituloEmpresa;
-}
+ h1 {
+   @extend .tituloEmpresa;
+ }
 
 .makeYourWay, .studyEnglish {
 
@@ -449,117 +449,80 @@ a:active {
 
  @media screen and (max-width: 1024px) {
 
-  .contenedorIndex1 {
+  .contenedorIndex1,.contenedorCursos, .general {
 
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-
-.makeYourWay {
-  margin: 0;
-  
-}
-
-.carousel {
-
-  margin: 0;
-}
-
   .footer {
 
-    width: auto;
-  }
+    width: 100%;
    
-  .menuNav {
+  }
 
+
+  .menu {
+
+    display:grid;
+    grid-template-columns: 1;
     align-items: center;
+
   }
-   
-// .footer {
+  .encabezado {
 
-//   width: 100%;
-// }
-
-//   .menuNav {
-
-//     display: flex;
-//     flex-direction: column;
-
-//   }
-
-//   .encabezado {
-//     display: flex;
-//     flex: column;
-//     width: auto;
-//   }
-
-
-//   .contenedorCursos {
+    gap: 0;
+    width: 100%;
     
-//      display: flex;
-//      flex-direction: column;
-//   }
+  }
 
+  .card {
 
-//   .nosotros {
+    width: 100%;
+    overflow: scroll;
+  }
 
-//       width: 100%;
-//       gap: 0px;
-//       margin-top: 30px;
-     
-//   }
+  .contenedorCursos {
 
+    width: 100%;
+  }
 
-//   .container-fluid {
+  h1, .tituloEmpresa {
+    width: 100%;
+    font-size: 2rem;
     
-//       display: flex;
-//       flex-direction: column;
-//       justify-content: center;
-//       align-items: center;
-//    }
 
-//    .encabezado {
-    
-//       display: flex;
-//       flex-direction: column;
-//       justify-content: center;
-//       align-items: center;
-//       width: 100%;
-    
-//    }
+  }
+  
+  .basesItem {
 
-//    .general {
-    
-//       display: flex;
-//       flex-direction: column;
-//    }
+    margin: 0;
+    font-size: 1rem;
+  
+  }
 
-   
+  .container {
 
-//    .tablaDeprecios, .tablaDeejemplificacion {
+    width: 100%;
+    font-size: 0.7rem;
+  }
 
-//      width: 100%;
-//    }
+.queEsLinkingParters {
 
+  font-size: 1rem;
+}
 
-//    .contenedorHome {
+}
 
+@media screen and (max-width: 769px) {
 
-//       display: flex;
-//       flex-direction: column;
-//       justify-content: center;
-//       align-items: center;
-//       width: 100%;
-//       height: 100%;
-      
-//   }
+.menu {
 
-//   .alumnoEstudiando , .examenOnline, .recomendacion {
+  display:grid;
+  grid-template-columns: 1;
+  align-items: center;
 
-//       width: 100%;
+}
 
-//   }
-
- }
+}
