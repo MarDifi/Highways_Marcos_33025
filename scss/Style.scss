@@ -50,14 +50,6 @@ $tarjetitas: (
 }
 
 
-.highwayslogoEncabezado {
-
- @include size(100px,100px );
- border-radius: 250%;
-
-}
-
-
 h2 {
 
   text-decoration: underline;
@@ -90,6 +82,14 @@ p {
   gap: 40px;
 
 } 
+
+
+.highwayslogoEncabezado {
+
+  @include size(100px,100px );
+  border-radius: 250%;
+ 
+ }
 
 /* MENU DE NAVEGACIÓN */
 
@@ -127,6 +127,7 @@ p {
  
 
 }
+
 
 
 /*INDEX */
@@ -208,19 +209,13 @@ p {
 }
 
 
-.enlace1, .enlace3 {
-
-  text-decoration: none;
-}
-
-
 .cuadro1, .cuadro2, .cuadro3 {
 
   text-align: center;
   padding-bottom: 50px;
+  font-weight: bold;
 
 }
-
 
 
 .contenedorIndex1 {
@@ -230,9 +225,15 @@ p {
   gap: 100px;
 }
 
-a {
+a, .enlace1, .enlace3 {
 
   text-decoration: none;
+  
+}
+
+a:visited {
+
+  color: black;
 }
 
 /* CURSOS Y CAPACITACIONES */
@@ -371,10 +372,7 @@ a {
 }
 
 
-a:active {
 
-  color: orangered;
-}
 
 .card-title, .card-text {
 

@@ -16,11 +16,6 @@
 * {
   font-family: 'Roboto', sans-serif; }
 
-.highwayslogoEncabezado {
-  height: 100px;
-  width: 100px;
-  border-radius: 250%; }
-
 h2 {
   text-decoration: underline;
   font-family: Arial, Helvetica, sans-serif;
@@ -41,6 +36,11 @@ p {
   justify-content: center;
   align-items: center;
   gap: 40px; }
+
+.highwayslogoEncabezado {
+  height: 100px;
+  width: 100px;
+  border-radius: 250%; }
 
 /* MENU DE NAVEGACIÓN */
 .menu {
@@ -131,20 +131,21 @@ p {
   text-align: center;
   font-size: 1.5rem; }
 
-.enlace1, .enlace3 {
-  text-decoration: none; }
-
 .cuadro1, .cuadro2, .cuadro3 {
   text-align: center;
-  padding-bottom: 50px; }
+  padding-bottom: 50px;
+  font-weight: bold; }
 
 .contenedorIndex1 {
   display: flex;
   justify-content: center;
   gap: 100px; }
 
-a {
+a, .enlace1, .enlace3 {
   text-decoration: none; }
+
+a:visited {
+  color: black; }
 
 /* CURSOS Y CAPACITACIONES */
 .contenedorCursos {
@@ -252,9 +253,6 @@ a {
 .general {
   display: flex;
   justify-content: space-evenly; }
-
-a:active {
-  color: orangered; }
 
 .card-title, .card-text {
   text-align: center; }
