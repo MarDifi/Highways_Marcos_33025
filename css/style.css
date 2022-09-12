@@ -139,10 +139,12 @@ p {
 .contenedorIndex1 {
   display: flex;
   justify-content: center;
-  gap: 100px; }
+  gap: 40px; }
 
 a, .enlace1, .enlace3 {
-  text-decoration: none; }
+  text-decoration: none;
+  color: black;
+  font-weight: bold; }
 
 a:visited {
   color: black; }
@@ -207,18 +209,12 @@ a:visited {
   margin-bottom: 0;
   margin-left: 50px; }
 
-.bases {
-  background-image: url(../Pictures/HLFILTRADA.png);
-  border-radius: 50%;
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-size: auto; }
-  .bases .basesItem {
-    margin-top: 30px;
-    margin-right: 0;
-    margin-bottom: 30px;
-    margin-left: 100px;
-    font-weight: bold; }
+.basesItem {
+  margin-top: 30px;
+  margin-right: 0;
+  margin-bottom: 30px;
+  margin-left: 100px;
+  font-weight: bold; }
 
 .parrafoBases {
   margin-top: 0;
@@ -300,22 +296,19 @@ a:visited {
     align-items: center; }
   .footer {
     width: 100%; }
-  .menu {
-    display: grid;
-    grid-template-columns: 1;
-    align-items: center; }
   .encabezado {
     gap: 0;
     width: 100%; }
   .card, .cardIndex {
-    width: 100%;
+    width: 80%;
     overflow: scroll; }
   .contenedorCursos {
     width: 100%; }
   h1, .tituloEmpresa, h1 {
-    width: 100%;
     font-size: 2rem; }
   .basesItem {
+    margin-left: 0; }
+  .parrafoBases {
     margin: 0;
     font-size: 1rem; }
   .container {
@@ -324,8 +317,32 @@ a:visited {
   .queEsLinkingParters {
     font-size: 1rem; } }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 1201px) {
+  .contenedorIndex1 {
+    gap: 0; }
+  .contenedorCursos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; }
   .menu {
     display: grid;
     grid-template-columns: 1;
     align-items: center; } }
+
+@media screen and (max-width: 769px) {
+  .menu {
+    display: grid;
+    grid-template-columns: 1;
+    align-items: center; }
+  .card-body {
+    width: 100%; }
+  .parrafo1LP, .parrafo2LP, .parrafo3LP {
+    margin: 0; } }
+
+@media screen and (max-width: 481px) {
+  .intro {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 30px;
+    margin-left: 0; } }
