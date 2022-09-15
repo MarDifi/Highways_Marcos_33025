@@ -104,7 +104,7 @@ p {
 
 .menuNav {
 
-  background-color:rgb(227, 233, 247);
+  background-color:rgb(243, 249, 250);
   border: solid 2px rgb(27, 5, 172);
   outline: 1px solid orangered;
   border-radius: 5px;
@@ -122,7 +122,7 @@ p {
 
 .menuNav:hover {
 
-  background-color: rgb(251, 194, 79);
+  background-color: rgb(137, 222, 246);
  
 
 }
@@ -144,6 +144,7 @@ p {
 
   @extend .card;
   @include size(700px,500px);
+  
   
 }
 
@@ -280,11 +281,17 @@ a:visited {
 
  }
 
- .parrafo1LP, .parrafo2LP, .parrafo3LP, .h3LP, .ultimoParrafoLP {
+ .parrafo1LP, .parrafo3LP, .h3LP, .ultimoParrafoLP {
 
    text-align: center;
-   @include margin(0,100px,0,100px)
+   margin: 50px;
+   font-weight: bold;
  }
+
+.parrafo2LP ¨{
+
+  @include margin(100px,100px,0,100px );
+}
 
  .container, .col {
 
@@ -324,7 +331,9 @@ a:visited {
 
     .parrafoBases {
 
-     @include margin(0,100px,0,100px)
+     @include margin(0,100px,0,100px);
+     font-weight: bold;
+
     }
 
 
@@ -369,7 +378,10 @@ a:visited {
 }
 
 
+.cardNosotros {
 
+  padding-top: 40px;
+}
 
 .card-title, .card-text {
 
@@ -463,6 +475,8 @@ a:visited {
 
     gap: 0;
     width: 100%;
+    margin: 0;
+   
     
   }
 
@@ -487,13 +501,13 @@ a:visited {
 
 .basesItem {
 
-  margin-left: 0;
+  margin-left: 10px;
 }
 
   
   .parrafoBases {
 
-    margin: 0;
+    margin: 10px;
     font-size: 1rem;
   
   }
@@ -558,7 +572,7 @@ a:visited {
 
   .parrafo1LP, .parrafo2LP, .parrafo3LP {
 
-    margin: 0;
+    margin: 10px;
   }
   
   }
