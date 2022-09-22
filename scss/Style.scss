@@ -486,6 +486,8 @@ a:visited {
     overflow: scroll;
   }
 
+
+
   .contenedorCursos {
 
     width: 100%;
@@ -526,6 +528,8 @@ a:visited {
 }
 
 
+
+
 @media screen and (max-width: 1201px) {
   
 .contenedorIndex1 {
@@ -541,6 +545,18 @@ a:visited {
     margin: 0;
   }
 
+  
+  .tarjetaCurso {
+
+    opacity: 1;
+   }
+   
+   .tarjetaCurso:hover {
+   
+     transform: scale(1);
+     
+   }
+
    .menu {
 
     display:grid;
@@ -555,6 +571,12 @@ a:visited {
 }
 
 @media screen and (max-width: 769px) {
+
+  
+  .encabezado {
+
+    background-size: 769px;
+  }
 
   .menu {
   
