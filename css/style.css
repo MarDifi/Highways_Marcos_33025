@@ -333,10 +333,6 @@ a:visited {
     flex-direction: column;
     align-items: center;
     margin: 0; }
-  .tarjetaCurso {
-    opacity: 1; }
-  .tarjetaCurso:hover {
-    transform: scale(1); }
   .menu {
     display: grid;
     grid-template-columns: 1;
@@ -351,6 +347,10 @@ a:visited {
     align-items: center; }
   .card-body {
     width: 100%; }
+  .tarjetaCurso {
+    opacity: 1; }
+  .tarjetaCurso:hover {
+    transform: scale(1); }
   .parrafo1LP, .parrafo2LP, .parrafo3LP {
     margin: 10px; } }
 
@@ -359,4 +359,6 @@ a:visited {
     margin-top: 0;
     margin-right: 0;
     margin-bottom: 30px;
-    margin-left: 0; } }
+    margin-left: 0; }
+  .menuNavContainer {
+    justify-content: center; } }

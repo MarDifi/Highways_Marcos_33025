@@ -546,17 +546,6 @@ a:visited {
   }
 
   
-  .tarjetaCurso {
-
-    opacity: 1;
-   }
-   
-   .tarjetaCurso:hover {
-   
-     transform: scale(1);
-     
-   }
-
    .menu {
 
     display:grid;
@@ -592,6 +581,17 @@ a:visited {
   
   }
 
+  .tarjetaCurso {
+
+    opacity: 1;
+   }
+   
+   .tarjetaCurso:hover {
+   
+     transform: scale(1);
+     
+   }
+
   .parrafo1LP, .parrafo2LP, .parrafo3LP {
 
     margin: 10px;
@@ -606,6 +606,11 @@ a:visited {
 
       @include margin(0,0,30px ,0 );
 
+    }
+
+    .menuNavContainer {
+
+      justify-content: center;
     }
 
   }
