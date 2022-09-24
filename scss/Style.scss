@@ -1,3 +1,4 @@
+/* Variables, mixings y map */ 
 
 $colorbg: rgb(247, 204, 124);
 $colortext: rgb(3, 3, 95);
@@ -89,7 +90,7 @@ p {
   @include size(100px,100px );
   border-radius: 250%;
  
- }
+}
 
 /* MENU DE NAVEGACIÓN */
 
@@ -227,6 +228,8 @@ p {
   
 }
 
+/*ENLACES*/
+
 a, .enlace1, .enlace3 {
 
   text-decoration: none;
@@ -273,68 +276,70 @@ a:visited {
 
  /* LINKING PARTNERS */
 
-  .queEsLinkingParters, .masInfoLP , .tablaDeejemplificacion {
-   text-decoration: underline;
-   text-align: center;
-   font-weight: bold;
-   @include margin(50px,0,50px,0)
+.queEsLinkingParters, .masInfoLP , .tablaDeejemplificacion {
+  text-decoration: underline;
+  text-align: center;
+  font-weight: bold;
+  @include margin(50px,0,50px,0)
 
- }
+}
 
- .parrafo1LP, .parrafo3LP, .h3LP, .ultimoParrafoLP {
+.parrafo1LP, .parrafo3LP, .h3LP, .ultimoParrafoLP {
 
-   text-align: center;
-   margin: 50px;
-   font-weight: bold;
- }
+  text-align: center;
+  margin: 50px;
+  font-weight: bold;
+}
 
 .parrafo2LP ¨{
 
   @include margin(100px,100px,0,100px );
+
 }
 
- .container, .col {
+.container, .col {
 
-   border: 1px solid rgb(5, 3,67);
-   outline: 1px solid rgb(248,101,10);
-   font-weight: bold;
+  border: 1px solid rgb(5, 3,67);
+  outline: 1px solid rgb(248,101,10);
+  font-weight: bold;
  
 
-   .col {
+  .col {
 
-     background-color: $colorbg;
-   }
- }
+    background-color: $colorbg;
+  }
+}
 
-   .container, .ultimoParrafoLP, .basesYCondiciones {
+.container, .ultimoParrafoLP, .basesYCondiciones {
 
-       @include margin(50px,auto ,50px ,auto );
-     }
+  @include margin(50px,auto ,50px ,auto );
+
+}
 
 
- .basesYCondiciones  {
-   font-weight: bold;
-   text-decoration: underline;
-   @include margin(100px,0,0,50px);
+.basesYCondiciones  {
+  font-weight: bold;
+  text-decoration: underline;
+  @include margin(100px,0,0,50px);
   
-   }
+}
 
  
-   .basesItem {
+.basesItem {
 
-       @include margin(30px,0,30px,100px);
-       font-weight: bold;
+  @include margin(30px,0,30px,100px);
+  font-weight: bold;
  
-   }
+}
 
 
 
-    .parrafoBases {
+.parrafoBases {
 
-     @include margin(0,100px,0,100px);
-     font-weight: bold;
+  @include margin(0,100px,0,100px);
+  font-weight: bold;
 
-    }
+}
 
 
 /*PREGUNTAS FRECUENTES*/
@@ -347,26 +352,25 @@ a:visited {
   
   .accordion-button {
     
-    background-color: $colorbg;
-    font-weight: bold;
+  background-color: $colorbg;
+  font-weight: bold;
+  }
 }
- 
-  }
 
 
-  .accordion-body {
+.accordion-body {
 
-    font-style: italic;
-  }
+  font-style: italic;
+}
 
 
-  .preguntas {
+.preguntas {
 
-    background-color: rgba(238,247,246,0.895);
-    border: 2px solid black;
-    @include margin(50px,0,0,0)
+  background-color: rgba(238,247,246,0.895);
+  border: 2px solid black;
+  @include margin(50px,0,0,0)
 
- }
+}
 
 
 /* NOSOTROS */ 
@@ -453,6 +457,8 @@ a:visited {
   
 /* MEDIA QUERIES */
 
+/*1024*/
+
 
  @media screen and (max-width: 1024px) {
 
@@ -503,31 +509,34 @@ a:visited {
 
 .basesItem {
 
-  margin-left: 10px;
-}
+    margin-left: 10px;
 
-  
-  .parrafoBases {
-
-    margin: 10px;
-    font-size: 1rem;
-  
   }
 
-  .container {
+  
+.parrafoBases {
+
+  margin: 10px;
+  font-size: 1rem;
+  
+ }
+
+.container {
 
     width: 100%;
     font-size: 0.7rem;
+
   }
 
 .queEsLinkingParters {
 
   font-size: 1rem;
-}
+
+  }
 
 }
 
-
+/* 1201 */
 
 
 @media screen and (max-width: 1201px) {
@@ -535,9 +544,10 @@ a:visited {
 .contenedorIndex1 {
 
   gap: 0;
-}
 
-  .contenedorCursos {
+  }
+
+.contenedorCursos {
 
     display: flex;
     flex-direction: column;
@@ -546,28 +556,27 @@ a:visited {
   }
 
   
-   .menu {
+.menu {
 
     display:grid;
     grid-template-columns: 1;
     align-items: center;
 
   }
-
-
-
-
 }
+
+
+/* 769 */
 
 @media screen and (max-width: 769px) {
 
   
-  .encabezado {
+.encabezado {
 
     background-size: 769px;
   }
 
-  .menu {
+.menu {
   
     display:grid;
     grid-template-columns: 1;
@@ -575,42 +584,40 @@ a:visited {
   
   }
   
-  .card-body {
+.card-body {
   
     width: 100%;
   
   }
 
-  .tarjetaCurso {
+.tarjetaCurso {
 
-    opacity: 1;
-   }
+   opacity: 1;
+
+  }
    
-   .tarjetaCurso:hover {
+.tarjetaCurso:hover {
    
-     transform: scale(1);
+    transform: scale(1);
      
-   }
+  }
 
-  .parrafo1LP, .parrafo2LP, .parrafo3LP {
+.parrafo1LP, .parrafo2LP, .parrafo3LP {
 
     margin: 10px;
   }
   
-  }
+}
 
-  
-   @media screen and (max-width: 481px) {
 
-    .intro {
+  /*481*/
 
-      @include margin(0,0,30px ,0 );
 
-    }
+@media screen and (max-width: 481px) {
 
-    .menuNavContainer {
+.intro {
 
-      justify-content: center;
-    }
+     @include margin(0,0,30px ,0 );
 
   }
+}
